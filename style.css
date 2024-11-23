@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    background-color: rgb(255, 200, 200);
+}
+nav{
+    margin-top: 20px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 10px;
+    
+}
+
+nav li{
+    margin-top: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: rgb(255, 200, 200);
+}
+
+main{
+    width: 600px;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+main video{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width:  100%;
+    height: auto;
+    z-index: -20;
+}
+
+main p {
+    color: white;
+    background-color: rgb(167, 138, 138);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
